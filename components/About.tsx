@@ -111,7 +111,7 @@ const About = () => {
   };
 
   return (
-    <section className="py-0" aria-label="about">
+    <section className="bg-white py-0" aria-label="about">
       <div className="container mx-auto px-4">
         <motion.div 
           className="grid lg:grid-cols-2 gap-12 mb-16"

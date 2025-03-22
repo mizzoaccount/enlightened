@@ -140,7 +140,7 @@ export default function TopicsTwo() {
                 onClick={() => handleScroll('prev')}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="w-8 h-8 rounded-full bg-blue-900 text-white grid place-items-center hover:bg-gradient-to-r from-[#d20ac3] to-[#efa110] transition-all"
+                className="w-8 h-8 rounded-full bg-blue-900 text-white grid place-items-center transition-all"
                 aria-label="Previous"
               >
                 <IoArrowBack className="w-4 h-4" />
@@ -149,7 +149,7 @@ export default function TopicsTwo() {
                 onClick={() => handleScroll('next')}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className="w-8 h-8 rounded-full bg-blue-900 text-white grid place-items-center hover:bg-gradient-to-r from-[#d20ac3] to-[#efa110] transition-all"
+                className="w-8 h-8 rounded-full bg-blue-900 text-white grid place-items-center transition-all"
                 aria-label="Next"
               >
                 <IoArrowForward className="w-4 h-4" />
