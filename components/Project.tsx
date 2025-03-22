@@ -325,7 +325,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="py-20 border-t border-b border-gray-200">
+    <section className="bg-white py-20 border-t border-b border-gray-200">
       <div className="container mx-auto px-4">
         {/* Title Section */}
         <motion.div 
