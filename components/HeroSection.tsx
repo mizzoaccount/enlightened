@@ -140,7 +140,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="bg-calcured pt-[140px] pb-[90px] overflow-hidden">
+    <section className="bg-white pt-[140px] pb-[90px] overflow-hidden">
       <div className="container mx-auto px-4 grid gap-12 md:grid-cols-2 md:items-center">
         {/* Hero Banner */}
         <motion.div 

@@ -88,7 +88,7 @@ export const Features = () => {
   };
 
   return (
-    <section className="py-4" id="features">
+    <section className="bg-white py-4" id="features">
       <div className="container mx-auto px-4">
         {/* Animated Section Header */}
         <motion.div 
