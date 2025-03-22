@@ -98,27 +98,24 @@ export const Features = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <motion.p 
-            className="text-[#efa110] mb-2 uppercase font-medium tracking-wide"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
-          >
-            Our App Feature
-          </motion.p>
-          <motion.h2 
-            className="text-4xl font-bold text-gray-900 mb-8"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
-          >
-            Awesome Features
-          </motion.h2>
-        </motion.div>
+       
+       <motion.h2 
+  className="text-4xl font-bold text-blue-900 mb-8 relative"
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ delay: 0.4 }}
+>
+  Our Values
+  <span className="absolute left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#d20ac3] mt-12"></span>
+</motion.h2>
 
+
+        
+        </motion.div>
+     
         {/* Animated Features Grid */}
         <motion.ul 
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 "
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
