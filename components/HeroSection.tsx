@@ -178,13 +178,15 @@ export default function Hero() {
             animate={{ y: [-5, 5] }}
             transition={{ duration: 2, repeat: Infinity, repeatType: 'reverse' }}
           >
-            <Image
-              src="/assets/images/hero-shape.svg"
-              alt="250+ Projects Done"
-              width={203}
-              height={91}
-              className="filter drop-shadow-xl"
-            />
+<Image
+  src="/assets/images/hero-shape.svg"
+  alt="250+ Projects Done"
+  width={203}
+  height={91}
+  className="filter drop-shadow-xl w-28 h-8 sm:w-28 sm:h-10 md:w-36 md:h-16 lg:w-40 lg:h-18 xl:w-44 xl:h-20"
+  style={{ maxWidth: "100%", height: "auto" }} // Ensures it scales properly
+/>
+
           </motion.div>
         </motion.div>
 
@@ -223,7 +225,7 @@ export default function Hero() {
               className="px-8 py-4 bg-[#d20ac3] text-white font-semibold rounded-full
                 border-2 border-[#d20ac3] relative overflow-hidden group"
             >
-              <span className="relative z-10">See Our Works</span>
+              <span className="relative z-10">Our Works</span>
               <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity" />
             </motion.a>
 
@@ -232,10 +234,10 @@ export default function Hero() {
               whileHover={buttonHover}
               whileTap={buttonTap}
               className="px-8 py-4 bg-transparent text-[#d20ac3] font-semibold rounded-full
-                border-2 border-[#d20ac3] hover:text-white relative overflow-hidden group"
+                border-2 border-[#d20ac3] relative overflow-hidden group"
             >
               <span className="relative z-10">Contact Us</span>
-              <div className="absolute inset-0 bg-[#d20ac3] opacity-0 group-hover:opacity-100 transition-opacity -z-10" />
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity -z-10" />
             </motion.a>
           </motion.div>
         </motion.div>
