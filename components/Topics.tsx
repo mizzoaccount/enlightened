@@ -64,7 +64,7 @@ export default function Topics() {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              Hot Events
+              Events Gallery
             </motion.h2>
             <motion.p 
               className="text-gray-500 text-sm mb-6"
@@ -72,7 +72,7 @@ export default function Topics() {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
             >
-              Don't miss out on the latest news about Travel tips, Hotels review, Food guide...
+             A visual showcase of unforgettable moments. From corporate gatherings to community celebrations, we capture the essence of every occasion. This space reflects our commitment to excellence, creativity, and meaningful connections.
             </motion.p>
             <div className="flex gap-2.5">
               <motion.button

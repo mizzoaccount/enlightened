@@ -172,22 +172,22 @@ export const Features = () => {
 const features = [
   {
     icon: <IoCreateOutline className="hover:scale-110 transition-transform" />,
-    title: "Easy to Edit",
-    text: "Intuitive interface with real-time editing capabilities"
+    title: "Integrity",
+    text: "We do the right thing."
   },
   {
     icon: <IoShieldCheckmarkOutline className="hover:scale-110 transition-transform" />,
-    title: "Fully Secure",
-    text: "Enterprise-grade security for your peace of mind"
+    title: "Transparency",
+    text: "Open, honest, and clear."
   },
   {
     icon: <IoSettingsOutline className="hover:scale-110 transition-transform" />,
-    title: "Manage User",
-    text: "Comprehensive user management dashboard"
+    title: "Excellence",
+    text: "Always striving to be better."
   },
   {
     icon: <IoCubeOutline className="hover:scale-110 transition-transform" />,
-    title: "Free Trial",
-    text: "Experience full features risk-free for 14 days"
+    title: "Innovation",
+    text: "Creating new and better solutions."
   }
 ];

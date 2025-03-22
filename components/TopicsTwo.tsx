@@ -125,7 +125,7 @@ export default function TopicsTwo() {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
             >
-              Media Production
+              Media Gallery
             </motion.h2>
             <motion.p 
               className="text-gray-500 text-sm mb-6"
@@ -133,7 +133,7 @@ export default function TopicsTwo() {
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
             >
-              Don't miss out on the latest news about Travel tips, Hotels review, Food guide...
+              A collection of powerful visuals that tell our story. From high-quality images to engaging videos, this space captures the essence of our brand, events, and milestones.
             </motion.p>
             <div className="flex gap-2.5 justify-end">
               <motion.button
