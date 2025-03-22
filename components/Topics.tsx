@@ -47,7 +47,7 @@ export default function Topics() {
   };
 
   return (
-    <section aria-labelledby="topic-label" className="py-12">
+    <section aria-labelledby="topic-label" className="bg-white py-12">
       <div className="container mx-auto px-4">
         <motion.div 
           className="bg-white rounded-lg p-6 shadow-lg md:grid md:grid-cols-[0.3fr_1fr] md:gap-5"
