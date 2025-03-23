@@ -18,7 +18,7 @@ import Footer from '@/components/Footer';
 
 const HomePage: React.FC = () => {
   return (
-    <div>
+    <div className="bg-gray-50 min-h-screen flex flex-col">
       <HeadNavigation />
       <HeroSection /> 
       <About />
