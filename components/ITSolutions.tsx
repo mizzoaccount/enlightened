@@ -7,37 +7,37 @@ const ITSolutions = () => {
       id: 1,
       title: 'Cloud Solutions',
       description: 'Scalable cloud infrastructure tailored to your business needs',
-      image: 'https://picsum.photos/400/300?cloud'
+      image: 'https://i.pinimg.com/736x/51/d5/48/51d548911242e61017adcdfbed429f59.jpg'
     },
     {
       id: 2,
       title: 'Cybersecurity',
       description: 'Enterprise-grade security solutions for digital assets',
-      image: 'https://picsum.photos/400/300?security'
+      image: 'https://i.pinimg.com/736x/cd/6f/a9/cd6fa98b64ed44a096fb555fbc065b28.jpg'
     },
     {
       id: 3,
       title: 'AI Integration',
       description: 'Smart automation and machine learning implementations',
-      image: 'https://picsum.photos/400/300?ai'
+      image: 'https://i.pinimg.com/736x/b2/11/29/b21129b9bf616bb10701394d624ab09a.jpg'
     },
     {
       id: 4,
       title: 'IT Consulting',
       description: 'Strategic technology planning and implementation',
-      image: 'https://picsum.photos/400/300?consulting'
+      image: 'https://i.pinimg.com/736x/b0/3f/81/b03f815fb319ce720eea730cf59ff111.jpg'
     },
     {
       id: 5,
       title: 'Data Analytics',
       description: 'Big data solutions and business intelligence insights',
-      image: 'https://picsum.photos/400/300?data'
+      image: 'https://i.pinimg.com/736x/7d/4b/a7/7d4ba708ddfb588b247ee85600e94c0a.jpg'
     },
     {
       id: 6,
       title: 'Network Solutions',
       description: 'Secure and reliable enterprise network infrastructure',
-      image: 'https://picsum.photos/400/300?network'
+      image: 'https://i.pinimg.com/736x/cc/f2/a5/ccf2a5e7d2a451030d57ce21e3433c4c.jpg'
     }
   ];
 
