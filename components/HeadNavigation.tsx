@@ -22,7 +22,7 @@ export default function Header() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
 
-  const navLinks = ['Home', 'About', 'Projects', 'Blog', 'Contact'];
+  const navLinks = ['Home', 'About', 'Projects', 'Contact'];
   const socialIcons = [
     { Icon: Twitter, name: 'Twitter' },
     { Icon: Facebook, name: 'Facebook' },

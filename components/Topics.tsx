@@ -47,6 +47,123 @@ export default function Topics() {
   };
 
   return (
+    <section aria-labelledby="topic-label" className="bg-gray-50 py-16">
+      <div className="container mx-auto px-4">
+        <motion.div 
+          className="bg-white rounded-xl p-8 shadow-2xl md:grid md:grid-cols-[0.3fr_1fr] md:gap-8"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+        >
+          <div className="mb-8 md:mb-0">
+            <motion.h2 
+              id="topic-label" 
+              className="text-4xl font-bold text-gray-900 mb-4"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.2 }}
+            >
+              Events Gallery
+            </motion.h2>
+            <motion.p 
+              className="text-gray-600 text-lg mb-8"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.4 }}
+            >
+              A visual showcase of unforgettable moments. From corporate gatherings to community celebrations, we capture the essence of every occasion. This space reflects our commitment to excellence, creativity, and meaningful connections.
+            </motion.p>
+            <div className="flex gap-3">
+              <motion.button
+                onClick={() => handleScroll('prev')}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="w-10 h-10 rounded-full bg-blue-900 text-white grid place-items-center transition-all hover:bg-blue-700"
+                aria-label="Previous"
+              >
+                <IoArrowBack className="w-5 h-5" />
+              </motion.button>
+              <motion.button
+                onClick={() => handleScroll('next')}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                className="w-10 h-10 rounded-full bg-blue-900 text-white grid place-items-center transition-all hover:bg-blue-700"
+                aria-label="Next"
+              >
+                <IoArrowForward className="w-5 h-5" />
+              </motion.button>
+            </div>
+          </div>
+
+          <div className="overflow-hidden relative">
+            <motion.ul
+              ref={sliderContainerRef}
+              className="flex gap-6 overflow-x-auto hide-scrollbar snap-x snap-mandatory"
+              variants={containerVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+            >
+              {topics.map((topic, index) => (
+                <motion.li
+                  key={index}
+                  className="min-w-full flex-shrink-0 snap-start md:min-w-[calc(33.333%-20px)] lg:min-w-[calc(25%-20px)]"
+                  variants={cardVariants}
+                  whileHover="hover"
+                >
+                  <motion.a 
+                    href="#" 
+                    className="block relative rounded-xl overflow-hidden group"
+                    whileHover="hover"
+                    initial="rest"
+                  >
+                    <motion.div 
+                      className="absolute inset-0 bg-gradient-to-t from-gray-900/50 via-transparent to-transparent"
+                      variants={{
+                        rest: { opacity: 0.6 },
+                        hover: { opacity: 0.8 }
+                      }}
+                    />
+                    <Image
+                      src={topic.image}
+                      alt={topic.title}
+                      width={507}
+                      height={618}
+                      className="w-full h-72 object-cover transform group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <motion.div 
+                      className="absolute bottom-6 left-6"
+                      variants={{
+                        rest: { y: 0 },
+                        hover: { y: -10 }
+                      }}
+                    >
+                      <span className="text-white font-bold text-xl block">{topic.title}</span>
+                      <span className="text-gray-200 text-sm">{topic.images} Images</span>
+                    </motion.div>
+                    <div className="absolute inset-0 border-2 border-transparent group-hover:border-[#d20ac3] transition-all rounded-xl" />
+                  </motion.a>
+                </motion.li>
+              ))}
+            </motion.ul>
+          </div>
+        </motion.div>
+      </div>
+
+      <style jsx global>{`
+        .hide-scrollbar {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+      `}</style>
+    </section>
+  );
+
+ /* return (
     <section aria-labelledby="topic-label" className="bg-white py-12">
       <div className="container mx-auto px-4">
         <motion.div 
@@ -161,7 +278,7 @@ export default function Topics() {
         }
       `}</style>
     </section>
-  );
+  );*/
 }
 /*import { useRef } from 'react';
 import Image from 'next/image';

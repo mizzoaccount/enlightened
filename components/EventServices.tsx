@@ -7,37 +7,37 @@ const EventServices = () => {
       id: 1,
       title: "Corporate Events Planning",
       description: "End-to-end management of conferences, seminars, and corporate gatherings.",
-      imgSrc: "/images/corporate-events.jpg"
+      imgSrc: "/assets/images/events/cooperate.jpeg"
     },
     {
       id: 2,
       title: "Wedding Coordination",
       description: "Full-service wedding planning with exquisite attention to detail.",
-      imgSrc: "/images/weddings.jpg"
+      imgSrc: "/assets/images/events/wedding.jpeg"
     },
     {
       id: 3,
       title: "Product Launches",
       description: "Memorable launch events that create buzz and media engagement.",
-      imgSrc: "/images/product-launch.jpg"
+      imgSrc: "/assets/images/events/product.jpeg"
     },
     {
       id: 4,
       title: "Virtual Events Production",
       description: "Hybrid and fully virtual event solutions with interactive features.",
-      imgSrc: "/images/virtual-events.jpg"
+      imgSrc: "/assets/images/events/virtual.jpeg"
     },
     {
       id: 5,
       title: "Entertainment Booking",
       description: "Access to top-tier performers and entertainment options.",
-      imgSrc: "/images/entertainment.jpg"
+      imgSrc: "/assets/images/events/entertainment.jpeg"
     },
     {
       id: 6,
       title: "Venue Sourcing",
       description: "Perfect location selection with global network access.",
-      imgSrc: "/images/venues.jpg"
+      imgSrc: "/assets/images/events/venue.jpeg"
     }
   ];
 
