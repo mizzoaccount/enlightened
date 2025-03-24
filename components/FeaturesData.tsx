@@ -89,7 +89,7 @@ export const Features = () => {
 
   return (
     <section className="bg-white py-4" id="features">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-0">
         {/* Animated Section Header */}
         <motion.div 
           className="text-center mb-12"

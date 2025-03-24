@@ -47,19 +47,19 @@ export default function Topics() {
   };
 
   return (
-    <section aria-labelledby="topic-label" className="bg-gray-50 py-16">
+    <section aria-labelledby="topic-label" className="bg-gray-50 py-8">
       <div className="container mx-auto px-4">
         <motion.div 
-          className="bg-white rounded-xl p-8 shadow-2xl md:grid md:grid-cols-[0.3fr_1fr] md:gap-8"
+          className="bg-white rounded-xl p-4 shadow-2xl md:grid md:grid-cols-[0.3fr_1fr] md:gap-4"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          <div className="mb-8 md:mb-0">
+          <div className="mb-4 md:mb-0">
             <motion.h2 
               id="topic-label" 
-              className="text-4xl font-bold text-gray-900 mb-4"
+              className="text-2xl font-bold text-gray-900 mb-4"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
@@ -67,7 +67,7 @@ export default function Topics() {
               Events Gallery
             </motion.h2>
             <motion.p 
-              className="text-gray-600 text-lg mb-8"
+              className="text-gray-600 text-md mb-4"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.4 }}

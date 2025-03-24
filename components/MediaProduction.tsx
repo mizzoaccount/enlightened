@@ -7,42 +7,42 @@ const MediaProduction = () => {
       id: 1,
       title: "Video Production",
       description: "Professional video production services from concept to final edit",
-      image: "/assets/media/video-production.jpg",
+      image: "https://i.pinimg.com/736x/04/92/39/04923982554969edf93e68ffb5a58e51.jpg",
       color: "bg-blue-900"
     },
     {
       id: 2,
       title: "Photography",
       description: "High-quality photography for corporate and commercial needs",
-      image: "/assets/media/photography.jpg",
+      image: "https://i.pinimg.com/736x/1e/cf/ef/1ecfef49edd5285598cf3fcc7c521249.jpg",
       color: "bg-[#d20ac3]"
     },
     {
       id: 3,
       title: "Live Streaming",
       description: "Multi-camera live streaming solutions for events",
-      image: "/assets/media/live-streaming.jpg",
+      image: "/assets/images/media/livestream.jpeg",
       color: "bg-blue-900"
     },
     {
       id: 4,
       title: "Post-Production",
       description: "Expert video editing and color grading services",
-      image: "/assets/media/post-production.jpg",
+      image: "https://i.pinimg.com/736x/e3/a1/84/e3a18424c50d4314926d8f6b37c3e64f.jpg",
       color: "bg-[#d20ac3]"
     },
     {
       id: 5,
       title: "Animation",
       description: "2D/3D animation and motion graphics creation",
-      image: "/assets/media/animation.jpg",
+      image: "https://i.pinimg.com/736x/d5/2d/7c/d52d7cdd20736a01b0978e04ac276d39.jpg",
       color: "bg-blue-900"
     },
     {
       id: 6,
       title: "Drone Cinematography",
       description: "Aerial filming with professional drone operators",
-      image: "/assets/media/drone-cinematography.jpg",
+      image: "https://i.pinimg.com/736x/d4/60/d2/d460d247c2f82915654850aeb21d4e83.jpg",
       color: "bg-[#d20ac3]"
     }
   ];
@@ -64,8 +64,8 @@ const MediaProduction = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+    <section className="py-8 bg-white">
+      <div className="container mx-auto px-0">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

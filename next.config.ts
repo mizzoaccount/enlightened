@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["picsum.photos"], // Add the external image domain here
+    domains: ["picsum.photos", "i.pinimg.com"], // Add both domains here
   },
 };
 
