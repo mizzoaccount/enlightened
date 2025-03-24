@@ -7,37 +7,37 @@ const BrandingPrinting = () => {
       id: 1,
       title: 'Corporate Identity Design',
       description: 'Crafting memorable brand identities that resonate with your target audience',
-      image: '/images/service1.jpg'
+      image: 'https://i.pinimg.com/736x/bd/56/8a/bd568ac7a81666af97470b6252cf7b6a.jpg'
     },
     {
       id: 2,
       title: 'Packaging Solutions',
       description: 'Innovative packaging designs that enhance product appeal',
-      image: '/images/service2.jpg'
+      image: '/assets/images/branding/packaging.jpeg'
     },
     {
       id: 3,
       title: 'Digital Printing',
       description: 'High-quality digital printing with quick turnaround times',
-      image: '/images/service3.jpg'
+      image: 'https://i.pinimg.com/736x/ff/e1/1f/ffe11fedb5398eef11537c42ff84aed3.jpg'
     },
     {
       id: 4,
       title: 'Brand Strategy',
       description: 'Data-driven brand strategies for market dominance',
-      image: '/images/service4.jpg'
+      image: 'https://i.pinimg.com/736x/bc/0f/bd/bc0fbd2ea3f000f5361c379961f85481.jpg'
     },
     {
       id: 5,
       title: 'Large Format Printing',
       description: 'Eye-catching banners, billboards, and signage solutions',
-      image: '/images/service5.jpg'
+      image: 'https://i.pinimg.com/736x/ca/90/8e/ca908ebb05309b1d70b1ecca923ce684.jpg'
     },
     {
       id: 6,
       title: 'Merchandise Branding',
       description: 'Custom branded merchandise that keeps your logo visible',
-      image: '/images/service6.jpg'
+      image: 'https://i.pinimg.com/736x/76/50/e1/7650e14c65ad6f0bfe646f018d9360e3.jpg'
     }
   ];
 
