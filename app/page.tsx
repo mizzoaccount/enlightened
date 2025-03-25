@@ -14,6 +14,7 @@ import Brands from '@/components/Brands';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import ContactUs from '@/components/ContactUs';
 import Footer from '@/components/Footer';
+import { Features } from '@/components/FeaturesData';
 
 const HomePage: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage: React.FC = () => {
       <HeadNavigation />
       <HeroSection /> 
       <About />
+      <Features />
       <Topics />
       <EventServices />
       <MediaProduction />
