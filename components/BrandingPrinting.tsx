@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import { FaPalette, FaBoxOpen, FaPrint, FaChess, FaImage, FaTshirt } from 'react-icons/fa';
 
 const BrandingPrinting = () => {
@@ -161,15 +162,18 @@ const BrandingPrinting = () => {
               <div className="p-8">
                 <h3 className="text-xl md:text-2xl font-bold mb-4 text-blue-900">{service.title}</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">{service.description}</p>
-                <motion.button 
-                  className="text-[#d20ac3] font-semibold hover:text-blue-900 transition-colors flex items-center gap-2 group"
-                  whileHover={{ x: 5 }}
-                >
-                  Learn More
-                  <span className="group-hover:translate-x-1 transition-transform">
-                    →
-                  </span>
-                </motion.button>
+             
+<Link href={`/branding-printing/${service.id}`} passHref>
+  <motion.button 
+    className="text-[#d20ac3] font-semibold hover:text-blue-900 transition-colors flex items-center gap-2 group"
+    whileHover={{ x: 5 }}
+  >
+    Learn More
+    <span className="group-hover:translate-x-1 transition-transform">
+      →
+    </span>
+  </motion.button>
+</Link>
               </div>
 
               <div className="absolute top-6 right-6">
