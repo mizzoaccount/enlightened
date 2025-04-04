@@ -167,7 +167,7 @@ const MediaProduction = () => {
       id: 3,
       title: "Live Streaming",
       description: "Multi-camera professional live streaming solutions for events and broadcasts",
-      image: "/assets/images/media/livestream.jpeg",
+      image: "https://i.pinimg.com/736x/1d/b7/b4/1db7b4ffecca1185f57017dccf5e6a42.jpg",
       icon: <FaBroadcastTower className="text-2xl" />,
       color: "from-blue-900 to-blue-700"
     },
@@ -255,7 +255,7 @@ const MediaProduction = () => {
               Media Production Services
             </span>
             <motion.span 
-              className="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-[#d20ac3] to-[#efa110]"
+              className="absolute left-0 bottom-[-6px] w-full h-1 bg-gradient-to-r from-[#d20ac3] to-[#efa110]"
               initial={{ scaleX: 0 }}
               whileInView={{ scaleX: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}

@@ -203,20 +203,22 @@ export const Features = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <motion.h2 
-            className="text-4xl md:text-5xl font-bold text-blue-900 mb-4 relative inline-block"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.4 }}
-          >
-            Our Core Values
-            <motion.span 
-              className="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-[#d20ac3] to-[#efa110]"
-              initial={{ scaleX: 0 }}
-              whileInView={{ scaleX: 1 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-            />
-          </motion.h2>
+     <motion.h2 
+  className="text-4xl md:text-5xl font-bold text-blue-900 mb-4 relative inline-block"
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ delay: 0.4 }}
+>
+  <span className="relative z-10">Our Core Values</span>
+  <motion.span 
+    className="absolute left-0 bottom-[-6px] w-full h-1 bg-gradient-to-r from-[#d20ac3] to-[#efa110]"
+    initial={{ scaleX: 0 }}
+    whileInView={{ scaleX: 1 }}
+    transition={{ duration: 0.8, delay: 0.6 }}
+    style={{ transformOrigin: 'left' }}
+  />
+</motion.h2>
+
           <motion.p 
             className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto"
             initial={{ opacity: 0 }}

@@ -276,7 +276,7 @@ const ContactUs = () => {
                             Ignite Your Future Journey
                             </span>
                             <motion.span 
-                              className="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-[#d20ac3] to-[#efa110]"
+                              className="absolute left-0 bottom-[-6px] w-full h-1 bg-gradient-to-r from-[#d20ac3] to-[#efa110]"
                               initial={{ scaleX: 0 }}
                               whileInView={{ scaleX: 1 }}
                               transition={{ duration: 0.8, delay: 0.4 }}

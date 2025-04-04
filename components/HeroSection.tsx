@@ -195,7 +195,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative bg-gradient-to-b from-white to-blue-50 pt-32 pb-24 md:pt-40 md:pb-32 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-white to-blue-50 pt-32 pb-24 md:pt-40 md:pb-32 overflow-hidden z-0">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-20 right-20 w-64 h-64 bg-purple-100 rounded-full filter blur-3xl opacity-20"></div>
